@@ -1,0 +1,74 @@
+/* banner style */
+.header{
+   height: 100vh;
+   background-image:url("../images/banner/banner1.png") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   text-align: right;
+}
+.container{
+    position: absolute;
+    top:250px;
+    right: 180px;
+}
+ .btn{
+    padding: 12px 26px;
+    background-color:#F15B22;
+    color: #FFFFFF;
+    border:0;
+    font-size: 18px;
+    border-radius: 5px;
+
+ }
+ headline{
+     font-weight: 700;
+       font-size: 65px;
+
+ }
+ /* main er kaj */
+ .style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+    .previous-year{
+        
+        width: 40%;
+        height: 400px;
+       padding-left: 350px;
+
+    }
+    .image{
+        width: 50%;
+        /* background-color: rgba(241, 91, 34, 0.2); */
+    }
+    /* my plan */
+    .my-Plan{
+        text-align: center;
+        margin:0 auto  ;
+        width: 70%;
+    }
+    
+    .skills-container{
+        display: flex;
+        gap: 24px;
+        /* text-align: center; */
+        
+    }
+        
+        
+    .skill{
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding: 30px;
+    }
+    .skill-title{
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .skill-description{
+        color: #757575;
+    }
